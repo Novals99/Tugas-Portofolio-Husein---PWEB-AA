@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio pribadi Nama Mahasiswa — Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan teknologi digital." />
+  <meta name="keywords" content="portofolio, mahasiswa, web developer, teknik informatika, pemrograman" />
+  <meta name="author" content="Nama Mahasiswa" />
+
+  <title>Nama Mahasiswa — Portofolio Pribadi</title>
+
+  <!-- Bootstrap 5.3.8 (Lokal) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR — Floating Pill (Sesuai referensi)
+       ============================================================ -->
+  <div class="navbar-wrapper" id="main-navbar">
+    <nav class="navbar-pill" role="navigation" aria-label="Navigasi utama">
+      <!-- Logo Mark -->
+      <a href="#beranda" class="nav-logo" aria-label="Beranda">N</a>
+
+      <!-- Divider -->
+      <span class="nav-divider" aria-hidden="true"></span>
+
+      <!-- Nav Links (Desktop) -->
+      <ul class="nav-links" id="nav-links-desktop">
+        <li><a href="#beranda"    class="nav-link active">Beranda</a></li>
+        <li><a href="#tentang"    class="nav-link">Tentang</a></li>
+        <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+        <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+        <li><a href="#keahlian"   class="nav-link">Keahlian</a></li>
+        <li><a href="#proyek"     class="nav-link">Proyek</a></li>
+        <li><a href="#sertifikat" class="nav-link">Sertifikat</a></li>
+      </ul>
+
+      <!-- CTA Button (Desktop) -->
+      <a href="#kontak" class="btn-contact ms-2">Hubungi Saya</a>
+
+      <!-- Mobile Toggler -->
+      <button class="nav-toggler" id="nav-toggler" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-mobile-menu">
+        <i class="bi bi-list" id="toggler-icon"></i>
+      </button>
+
+      <!-- Mobile Menu -->
+      <div class="nav-mobile-menu" id="nav-mobile-menu" role="menu">
+        <a href="#beranda"    class="nav-link" role="menuitem">Beranda</a>
+        <a href="#tentang"    class="nav-link" role="menuitem">Tentang Saya</a>
+        <a href="#pendidikan" class="nav-link" role="menuitem">Pendidikan</a>
+        <a href="#pengalaman" class="nav-link" role="menuitem">Pengalaman</a>
+        <a href="#keahlian"   class="nav-link" role="menuitem">Keahlian</a>
+        <a href="#proyek"     class="nav-link" role="menuitem">Proyek</a>
+        <a href="#sertifikat" class="nav-link" role="menuitem">Sertifikat</a>
+        <a href="#kontak"     class="btn-contact-mobile" role="menuitem">Hubungi Saya</a>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO / BERANDA
+         ============================================================ -->
+    <section id="beranda" class="hero-section dot-grid-bg">
+      <!-- Tersedia badge -->
+      <div class="hero-available-badge fade-in-up">
+        <span class="dot" aria-hidden="true"></span>
+        Tersedia untuk kolaborasi
+      </div>
+
+      <!-- Avatar -->
+      <div class="avatar-svg-wrap fade-in-up delay-1" role="img" aria-label="Foto profil Nama Mahasiswa">
+        <!-- Inline SVG Avatar Placeholder -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <!-- Body -->
+          <ellipse cx="50" cy="88" rx="28" ry="14" fill="#4f85d4"/>
+          <!-- Shirt -->
+          <path d="M24 80 Q32 68 50 72 Q68 68 76 80 L72 100 H28 Z" fill="#4f85d4"/>
+          <!-- Neck -->
+          <rect x="44" y="60" width="12" height="14" rx="4" fill="#f0c8a0"/>
+          <!-- Head -->
+          <ellipse cx="50" cy="48" rx="18" ry="20" fill="#f0c8a0"/>
+          <!-- Hair -->
+          <path d="M32 42 Q33 24 50 22 Q67 24 68 42 Q64 30 50 29 Q36 30 32 42Z" fill="#2d2216"/>
+          <!-- Eyes -->
+          <ellipse cx="44" cy="47" rx="2.5" ry="2.8" fill="#2d2216"/>
+          <ellipse cx="56" cy="47" rx="2.5" ry="2.8" fill="#2d2216"/>
+          <!-- Eye shine -->
+          <circle cx="45.2" cy="46" r="0.9" fill="#fff"/>
+          <circle cx="57.2" cy="46" r="0.9" fill="#fff"/>
+          <!-- Smile -->
+          <path d="M44 55 Q50 60 56 55" stroke="#c87940" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <!-- Heading -->
+      <h1 class="hero-title fade-in-up delay-2">
+        Hai, Saya <span style="color: var(--color-accent)">Nama Mahasiswa</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle fade-in-up delay-3">
+        Mahasiswa Teknik Informatika yang antusias dalam pengembangan web modern, 
+        desain antarmuka yang bersih, dan solusi teknologi yang bermanfaat bagi masyarakat.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero-cta-group fade-in-up delay-4">
+        <a href="#proyek" class="btn-primary-custom">
+          <i class="bi bi-grid-1x2-fill" aria-hidden="true"></i>
+          Lihat Proyek Saya
+        </a>
+        <a href="#kontak" class="btn-outline-custom">
+          <i class="bi bi-send" aria-hidden="true"></i>
+          Hubungi Saya
+        </a>
+      </div>
+
+      <!-- Technology Strip -->
+      <div class="tech-strip fade-in-up">
+        <p class="tech-strip-label">Teknologi yang Dikuasai</p>
+        <div class="tech-icons-row" role="list" aria-label="Daftar teknologi">
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M4 4h24v24H4z" fill="#e44d26"/><path d="M16 25.5l-8.4-2.3-.9-10.3h2.8l.5 5.5 5.9 1.6 5.9-1.6.6-7H9.5l-.2-2.5h13.3l-.3 3.5-5.6 1.5 5.6 1.5-.5 6.1z" fill="#fff"/></svg>
+            </div>
+            <span>HTML5</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M4 4h24v24H4z" fill="#1572b6"/><path d="M16 25.5l-8.4-2.3 1.2-13.3h14.4l-1.2 13.3L16 25.5zm5.9-11.2h-12l.3 2.5h11.1l-.6 6.5-4.7 1.3-4.7-1.3-.3-3.6h2.7l.2 1.8 2.1.6 2.1-.6.2-2.5H9.3l-.7-8.5h14.7l-.4 4.8z" fill="#fff"/></svg>
+            </div>
+            <span>CSS3</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M4 4h24v24H4z" fill="#f7df1e"/><path d="M19.8 22c.4.8 1 1.4 1.9 1.4 1 0 1.6-.5 1.6-1.2 0-.8-.6-1.1-1.7-1.6l-.6-.3c-1.7-.7-2.8-1.6-2.8-3.4 0-1.7 1.3-3 3.3-3 1.4 0 2.4.5 3.1 1.8l-1.7 1.1c-.4-.7-.8-1-1.4-1-.6 0-1 .4-1 1 0 .7.4 1 1.4 1.4l.6.3c2 .8 3.1 1.7 3.1 3.6 0 2-1.6 3.2-3.8 3.2-2.1 0-3.5-1-4.2-2.4L19.8 22zM10.4 22.2c.3.5.5.9 1.1.9.6 0 .9-.2.9-1.1v-6.1h2.2V22c0 1.8-1 2.7-2.6 2.7-1.4 0-2.2-.7-2.6-1.6L10.4 22.2z" fill="#000"/></svg>
+            </div>
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M4 4h24v24H4z" fill="#7952b3"/><path d="M9 21l2.5-2.5c.6.8 1.6 1.5 2.9 1.5 1.1 0 1.7-.5 1.7-1.2 0-.8-.6-1-1.9-1.5l-.7-.3c-2-.8-3.2-1.8-3.2-3.9 0-2 1.6-3.5 4-3.5 1.7 0 3 .6 3.9 2l-2.2 2c-.5-.8-1.1-1.2-1.8-1.2-.7 0-1.1.4-1.1.9s.4.9 1.4 1.3l.7.3c2.3.9 3.5 2 3.5 4.1 0 2.4-1.9 3.8-4.5 3.8-2.5 0-4.1-1.1-5.2-2.8zm9.2 0l2.5-2.5c.6.8 1.6 1.5 2.9 1.5 1.1 0 1.7-.5 1.7-1.2 0-.8-.6-1-1.9-1.5l-.7-.3c-2-.8-3.2-1.8-3.2-3.9 0-2 1.6-3.5 4-3.5 1.7 0 3 .6 3.9 2l-2.2 2c-.5-.8-1.1-1.2-1.8-1.2-.7 0-1.1.4-1.1.9s.4.9 1.4 1.3l.7.3c2.3.9 3.5 2 3.5 4.1 0 2.4-1.9 3.8-4.5 3.8-2.5 0-4.1-1.1-5.2-2.8z" fill="#fff"/></svg>
+            </div>
+            <span>Bootstrap</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M4 4h24v24H4z" fill="#4479a1"/><path d="M16 7c-5 0-9 4-9 9s4 9 9 9 9-4 9-9-4-9-9-9zm0 3c1.5 0 3 .5 4 1.5L9 19.5c-1-1-1.5-2.5-1.5-3.5C7.5 12 11.5 10 16 10zm0 12c-1.5 0-3-.5-4-1.5l11-8c1 1 1.5 2.5 1.5 3.5 0 3.5-4 6-8.5 6z" fill="#fff"/></svg>
+            </div>
+            <span>MySQL</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><path d="M16 4C9.4 4 4 9.4 4 16s5.4 12 12 12 12-5.4 12-12S22.6 4 16 4zm0 3c2.4 0 4.6.8 6.4 2.2l-3.9 3.9c-.7-.5-1.6-.8-2.5-.8-2.4 0-4.3 1.9-4.3 4.3 0 .9.3 1.8.8 2.5l-3.9 3.9C7.2 21.8 6 19.1 6 16c0-5.5 4.5-9 10-9zm9 9c0 3.1-1.2 5.8-3.2 7.8l-3.9-3.9c.5-.7.8-1.6.8-2.5 0-2.4-1.9-4.3-4.3-4.3-.9 0-1.8.3-2.5.8l-3.9-3.9C9.8 7.2 12.7 6 16 6c5.5 0 9 4.5 9 10z" fill="#f05032"/></svg>
+            </div>
+            <span>Git</span>
+          </div>
+          <div class="tech-icon-item" role="listitem">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="4" fill="#007acc"/><path d="M7 17.5l6-6m0 0h-4m4 0v4M15 11h8a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            </div>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TENTANG SAYA
+         ============================================================ -->
+    <section id="tentang" class="section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Tentang Saya</span>
+          <h2 class="section-title">Mengenal Lebih Dekat</h2>
+          <p class="section-subtitle">Perkenalkan, saya mahasiswa yang bersemangat mengeksplorasi dunia teknologi dan pengembangan perangkat lunak.</p>
+        </div>
+
+        <div class="row g-4 align-items-start justify-content-center">
+          <!-- Left: Profile Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center fade-in-up">
+              <div class="about-avatar-lg" role="img" aria-label="Foto profil">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" aria-hidden="true" style="width:105px;height:105px">
+                  <ellipse cx="50" cy="88" rx="28" ry="14" fill="#4f85d4"/>
+                  <path d="M24 80 Q32 68 50 72 Q68 68 76 80 L72 100 H28 Z" fill="#4f85d4"/>
+                  <rect x="44" y="60" width="12" height="14" rx="4" fill="#f0c8a0"/>
+                  <ellipse cx="50" cy="48" rx="18" ry="20" fill="#f0c8a0"/>
+                  <path d="M32 42 Q33 24 50 22 Q67 24 68 42 Q64 30 50 29 Q36 30 32 42Z" fill="#2d2216"/>
+                  <ellipse cx="44" cy="47" rx="2.5" ry="2.8" fill="#2d2216"/>
+                  <ellipse cx="56" cy="47" rx="2.5" ry="2.8" fill="#2d2216"/>
+                  <circle cx="45.2" cy="46" r="0.9" fill="#fff"/>
+                  <circle cx="57.2" cy="46" r="0.9" fill="#fff"/>
+                  <path d="M44 55 Q50 60 56 55" stroke="#c87940" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="about-name">Nama Mahasiswa</h3>
+              <p class="about-role">Mahasiswa Teknik Informatika</p>
+              <div class="about-info-grid text-start">
+                <div class="about-info-item">
+                  <div class="about-info-label">Universitas</div>
+                  <div class="about-info-value">Nama Universitas</div>
+                </div>
+                <div class="about-info-item">
+                  <div class="about-info-label">Program Studi</div>
+                  <div class="about-info-value">Teknik Informatika</div>
+                </div>
+                <div class="about-info-item">
+                  <div class="about-info-label">Angkatan</div>
+                  <div class="about-info-value">2022</div>
+                </div>
+                <div class="about-info-item">
+                  <div class="about-info-label">Kota</div>
+                  <div class="about-info-value">Nama Kota</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Bio + Stats -->
+          <div class="col-lg-7 col-md-10">
+            <div class="fade-in-up delay-1">
+              <h3 class="section-title" style="font-size:1.5rem">Hai! Saya Nama Mahasiswa 👋</h3>
+              <p class="about-bio mb-3">
+                Saya adalah mahasiswa semester 5 Program Studi Teknik Informatika yang memiliki minat besar terhadap 
+                pengembangan web dan teknologi digital. Perjalanan saya di dunia pemrograman dimulai sejak SMA ketika 
+                pertama kali mencoba membuat halaman web sederhana menggunakan HTML dan CSS.
+              </p>
+              <p class="about-bio mb-3">
+                Selama kuliah, saya aktif mengikuti berbagai pelatihan, workshop, dan kompetisi untuk terus 
+                mengembangkan kompetensi teknis saya. Saya percaya bahwa teknologi yang baik adalah teknologi 
+                yang mampu memberikan dampak nyata dan mempermudah kehidupan sehari-hari.
+              </p>
+              <p class="about-bio mb-4">
+                Di luar kegiatan akademik, saya senang berkontribusi dalam komunitas teknologi lokal, berbagi 
+                pengetahuan bersama teman-teman, dan terus belajar hal-hal baru. Saat ini saya sedang 
+                memperdalam pemahaman tentang pengembangan aplikasi web full-stack dan desain UI/UX.
+              </p>
+
+              <!-- Stats Row -->
+              <div class="row g-3">
+                <div class="col-6 col-sm-3">
+                  <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Proyek Selesai</div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Sertifikat</div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Pengalaman</div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Prestasi</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PENDIDIKAN
+         ============================================================ -->
+    <section id="pendidikan" class="section-gray">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Pendidikan</span>
+          <h2 class="section-title">Riwayat Pendidikan</h2>
+          <p class="section-subtitle">Perjalanan akademik yang membentuk fondasi pengetahuan dan keterampilan saya.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="timeline-wrap">
+
+              <div class="timeline-item fade-in-up">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="edu-card">
+                  <span class="edu-period">2022 — Sekarang</span>
+                  <h3 class="edu-institution">Nama Universitas</h3>
+                  <p class="edu-program">S1 Teknik Informatika</p>
+                  <p class="edu-desc">
+                    Menempuh pendidikan sarjana dengan fokus pada pengembangan perangkat lunak, 
+                    struktur data dan algoritma, rekayasa perangkat lunak, serta pemrograman web. 
+                    Aktif dalam organisasi kemahasiswaan dan komunitas teknologi kampus.
+                    IPK saat ini: <strong>3.72 / 4.00</strong>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item fade-in-up delay-1">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="edu-card">
+                  <span class="edu-period">2019 — 2022</span>
+                  <h3 class="edu-institution">SMA Negeri Contoh Kota</h3>
+                  <p class="edu-program">IPA (Ilmu Pengetahuan Alam)</p>
+                  <p class="edu-desc">
+                    Lulus dengan nilai rata-rata 87.5. Aktif dalam ekstrakurikuler OSIS dan Klub Komputer 
+                    sekolah. Mulai belajar dasar-dasar pemrograman dan membangun website pertama menggunakan HTML/CSS.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item fade-in-up delay-2">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="edu-card">
+                  <span class="edu-period">2016 — 2019</span>
+                  <h3 class="edu-institution">SMP Negeri Contoh Kota</h3>
+                  <p class="edu-program">Sekolah Menengah Pertama</p>
+                  <p class="edu-desc">
+                    Lulus dengan nilai memuaskan. Mengembangkan ketertarikan awal terhadap matematika dan 
+                    ilmu pengetahuan alam, yang menjadi fondasi minat di bidang teknologi.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PENGALAMAN
+         ============================================================ -->
+    <section id="pengalaman" class="section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Pengalaman</span>
+          <h2 class="section-title">Pengalaman Kerja & Organisasi</h2>
+          <p class="section-subtitle">Pengalaman praktis yang memperkaya kemampuan teknis dan kolaborasi saya.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Exp 1 -->
+          <div class="col-lg-6 fade-in-up">
+            <div class="exp-card">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="exp-logo" aria-hidden="true">💼</div>
+                <div class="flex-grow-1">
+                  <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
+                    <span class="exp-period-badge">Jan 2024 — Jun 2024</span>
+                    <span class="exp-type-badge">Magang</span>
+                  </div>
+                  <h3 class="exp-role">Web Developer Intern</h3>
+                  <p class="exp-company" style="color:var(--color-text-muted); font-weight:500">PT Contoh Teknologi Indonesia</p>
+                </div>
+              </div>
+              <p class="exp-desc">
+                Berkontribusi dalam pengembangan dan pemeliharaan aplikasi web internal perusahaan. 
+                Berkolaborasi dengan tim senior dalam proses pengembangan perangkat lunak menggunakan metodologi Agile.
+              </p>
+              <ul class="exp-resp-list">
+                <li>Membangun fitur frontend menggunakan HTML, CSS, dan JavaScript</li>
+                <li>Integrasi API backend dengan tampilan antarmuka pengguna</li>
+                <li>Melakukan pengujian fungsional dan perbaikan bug</li>
+                <li>Berpartisipasi dalam code review dan daily standup</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Exp 2 -->
+          <div class="col-lg-6 fade-in-up delay-1">
+            <div class="exp-card">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="exp-logo" aria-hidden="true">🏫</div>
+                <div class="flex-grow-1">
+                  <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
+                    <span class="exp-period-badge">Sep 2023 — Sekarang</span>
+                    <span class="exp-type-badge">Asisten Laboratorium</span>
+                  </div>
+                  <h3 class="exp-role">Asisten Praktikum Pemrograman Web</h3>
+                  <p class="exp-company" style="color:var(--color-text-muted); font-weight:500">Nama Universitas</p>
+                </div>
+              </div>
+              <p class="exp-desc">
+                Membimbing mahasiswa semester 3 dalam mempelajari dasar-dasar pemrograman web, 
+                termasuk HTML5, CSS3, JavaScript, dan framework Bootstrap.
+              </p>
+              <ul class="exp-resp-list">
+                <li>Menyiapkan materi dan modul praktikum mingguan</li>
+                <li>Membimbing 30+ mahasiswa dalam setiap sesi praktikum</li>
+                <li>Mengoreksi laporan dan tugas praktikum mahasiswa</li>
+                <li>Membantu mahasiswa dalam menyelesaikan kendala teknis</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Exp 3 -->
+          <div class="col-lg-6 fade-in-up delay-2">
+            <div class="exp-card">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="exp-logo" aria-hidden="true">🏆</div>
+                <div class="flex-grow-1">
+                  <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
+                    <span class="exp-period-badge">Okt 2022 — Sep 2023</span>
+                    <span class="exp-type-badge">Organisasi</span>
+                  </div>
+                  <h3 class="exp-role">Koordinator Divisi Teknologi</h3>
+                  <p class="exp-company" style="color:var(--color-text-muted); font-weight:500">Himpunan Mahasiswa Informatika</p>
+                </div>
+              </div>
+              <p class="exp-desc">
+                Memimpin divisi teknologi dalam himpunan mahasiswa dengan fokus pada pengelolaan 
+                infrastruktur digital dan penyelenggaraan kegiatan workshop teknologi.
+              </p>
+              <ul class="exp-resp-list">
+                <li>Mengelola website resmi himpunan mahasiswa</li>
+                <li>Mengoordinasikan 5 anggota divisi teknologi</li>
+                <li>Menyelenggarakan 3 workshop teknologi per semester</li>
+                <li>Membuat sistem pendaftaran event berbasis web</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Exp 4 -->
+          <div class="col-lg-6 fade-in-up delay-3">
+            <div class="exp-card">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="exp-logo" aria-hidden="true">🌐</div>
+                <div class="flex-grow-1">
+                  <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
+                    <span class="exp-period-badge">Jul 2023 — Des 2023</span>
+                    <span class="exp-type-badge">Freelance</span>
+                  </div>
+                  <h3 class="exp-role">Web Developer Freelance</h3>
+                  <p class="exp-company" style="color:var(--color-text-muted); font-weight:500">Proyek Mandiri</p>
+                </div>
+              </div>
+              <p class="exp-desc">
+                Mengerjakan beberapa proyek website freelance untuk UMKM lokal, 
+                membantu bisnis kecil memiliki kehadiran digital yang profesional.
+              </p>
+              <ul class="exp-resp-list">
+                <li>Membangun website profil untuk 3 UMKM lokal</li>
+                <li>Membuat katalog produk digital berbasis web</li>
+                <li>Memberikan pelatihan dasar pengelolaan website kepada klien</li>
+                <li>Maintenance dan update konten website secara berkala</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         KEAHLIAN
+         ============================================================ -->
+    <section id="keahlian" class="section-gray">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Keahlian</span>
+          <h2 class="section-title">Kemampuan Teknis & Non-Teknis</h2>
+          <p class="section-subtitle">Beragam keterampilan yang saya kembangkan melalui pembelajaran, proyek, dan pengalaman nyata.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Pemrograman -->
+          <div class="col-lg-4 col-md-6 fade-in-up">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">💻</div>
+                <h3 class="skill-cat-title">Pemrograman</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Bahasa pemrograman">
+                <span class="skill-tag" role="listitem">Python</span>
+                <span class="skill-tag" role="listitem">JavaScript</span>
+                <span class="skill-tag" role="listitem">PHP</span>
+                <span class="skill-tag" role="listitem">Java</span>
+                <span class="skill-tag" role="listitem">C++</span>
+                <span class="skill-tag" role="listitem">TypeScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pengembangan Web -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">🌐</div>
+                <h3 class="skill-cat-title">Pengembangan Web</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Teknologi pengembangan web">
+                <span class="skill-tag" role="listitem">HTML5</span>
+                <span class="skill-tag" role="listitem">CSS3</span>
+                <span class="skill-tag" role="listitem">Bootstrap</span>
+                <span class="skill-tag" role="listitem">React.js</span>
+                <span class="skill-tag" role="listitem">Laravel</span>
+                <span class="skill-tag" role="listitem">REST API</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Basis Data -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">🗄️</div>
+                <h3 class="skill-cat-title">Basis Data</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Sistem manajemen basis data">
+                <span class="skill-tag" role="listitem">MySQL</span>
+                <span class="skill-tag" role="listitem">PostgreSQL</span>
+                <span class="skill-tag" role="listitem">MongoDB</span>
+                <span class="skill-tag" role="listitem">SQL Query</span>
+                <span class="skill-tag" role="listitem">Database Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Software -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">🛠️</div>
+                <h3 class="skill-cat-title">Tools & Software</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Alat dan perangkat lunak">
+                <span class="skill-tag" role="listitem">Git & GitHub</span>
+                <span class="skill-tag" role="listitem">VS Code</span>
+                <span class="skill-tag" role="listitem">Figma</span>
+                <span class="skill-tag" role="listitem">Postman</span>
+                <span class="skill-tag" role="listitem">XAMPP</span>
+                <span class="skill-tag" role="listitem">Linux</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desain UI/UX -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">🎨</div>
+                <h3 class="skill-cat-title">Desain UI/UX</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Kemampuan desain">
+                <span class="skill-tag" role="listitem">Figma</span>
+                <span class="skill-tag" role="listitem">Wireframing</span>
+                <span class="skill-tag" role="listitem">Prototyping</span>
+                <span class="skill-tag" role="listitem">User Research</span>
+                <span class="skill-tag" role="listitem">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kemampuan Non-Teknis -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-3">
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon" aria-hidden="true">🤝</div>
+                <h3 class="skill-cat-title">Kemampuan Non-Teknis</h3>
+              </div>
+              <div class="skill-tags" role="list" aria-label="Kemampuan non-teknis">
+                <span class="skill-tag" role="listitem">Kerja Tim</span>
+                <span class="skill-tag" role="listitem">Komunikasi</span>
+                <span class="skill-tag" role="listitem">Pemecahan Masalah</span>
+                <span class="skill-tag" role="listitem">Manajemen Waktu</span>
+                <span class="skill-tag" role="listitem">Presentasi</span>
+                <span class="skill-tag" role="listitem">Adaptif</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROYEK
+         ============================================================ -->
+    <section id="proyek" class="section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Proyek</span>
+          <h2 class="section-title">Proyek yang Pernah Dikerjakan</h2>
+          <p class="section-subtitle">Kumpulan proyek akademik dan pribadi yang menunjukkan kemampuan dan minat saya.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Proyek 1: Portfolio -->
+          <div class="col-lg-4 col-md-6 fade-in-up">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#eff6ff,#dbeafe)" aria-hidden="true">
+                  <span style="font-size:2.5rem">🖥️</span>
+                  <span>Website Portofolio Pribadi</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Website Portofolio Pribadi</h3>
+                <p class="project-card-desc">
+                  Website portofolio responsif yang dibuat menggunakan HTML5, CSS3, dan Bootstrap 5. 
+                  Menampilkan informasi pribadi, riwayat pendidikan, pengalaman, keahlian, dan proyek 
+                  dengan desain bersih dan modern mengacu pada prinsip UI/UX yang baik.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">HTML5</span>
+                  <span class="project-tech-tag" role="listitem">CSS3</span>
+                  <span class="project-tech-tag" role="listitem">Bootstrap 5</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <span class="project-featured-badge">⭐ Unggulan</span>
+                <a href="https://github.com/username/portfolio" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Proyek 2: SIA -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#f0fdf4,#dcfce7)" aria-hidden="true">
+                  <span style="font-size:2.5rem">🎓</span>
+                  <span>Sistem Informasi Akademik</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Sistem Informasi Akademik Sederhana</h3>
+                <p class="project-card-desc">
+                  Aplikasi web untuk mengelola data mahasiswa, mata kuliah, dan nilai akademik. 
+                  Dilengkapi fitur autentikasi pengguna, manajemen data CRUD, serta laporan nilai 
+                  dalam format yang mudah dibaca oleh mahasiswa dan dosen.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">PHP</span>
+                  <span class="project-tech-tag" role="listitem">MySQL</span>
+                  <span class="project-tech-tag" role="listitem">Bootstrap 5</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://github.com/username/sia-simple" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="#" class="btn-project-link" aria-label="Lihat demo (tidak tersedia)">
+                  <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Demo
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Proyek 3: Toko Online -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#fff7ed,#fed7aa)" aria-hidden="true">
+                  <span style="font-size:2.5rem">🛒</span>
+                  <span>Katalog Produk UMKM</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Website Katalog Produk UMKM</h3>
+                <p class="project-card-desc">
+                  Website katalog produk untuk UMKM lokal yang memungkinkan pemilik usaha 
+                  menampilkan koleksi produk secara digital. Menampilkan produk dengan filter 
+                  kategori, pencarian, dan halaman detail produk yang informatif.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">HTML5</span>
+                  <span class="project-tech-tag" role="listitem">CSS3</span>
+                  <span class="project-tech-tag" role="listitem">JavaScript</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://github.com/username/katalog-umkm" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Proyek 4: Aplikasi To-Do -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#fdf4ff,#f3e8ff)" aria-hidden="true">
+                  <span style="font-size:2.5rem">✅</span>
+                  <span>Aplikasi Manajemen Tugas</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Aplikasi Manajemen Tugas (To-Do App)</h3>
+                <p class="project-card-desc">
+                  Aplikasi web ringan untuk mengelola daftar tugas harian dengan fitur 
+                  tambah, edit, hapus, dan tandai tugas selesai. Data tersimpan di localStorage 
+                  browser sehingga tidak membutuhkan backend atau database.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">JavaScript</span>
+                  <span class="project-tech-tag" role="listitem">HTML5</span>
+                  <span class="project-tech-tag" role="listitem">CSS3</span>
+                  <span class="project-tech-tag" role="listitem">localStorage</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://github.com/username/todo-app" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Proyek 5: Dashboard -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#ecfeff,#cffafe)" aria-hidden="true">
+                  <span style="font-size:2.5rem">📊</span>
+                  <span>Dashboard Laporan Penjualan</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Dashboard Laporan Penjualan</h3>
+                <p class="project-card-desc">
+                  Halaman dashboard interaktif untuk memvisualisasikan data penjualan dalam 
+                  bentuk grafik dan tabel yang mudah dipahami. Dibuat sebagai proyek akhir 
+                  mata kuliah Pemrograman Web dengan tampilan responsif.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">HTML5</span>
+                  <span class="project-tech-tag" role="listitem">CSS3</span>
+                  <span class="project-tech-tag" role="listitem">Bootstrap 5</span>
+                  <span class="project-tech-tag" role="listitem">Chart.js</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://github.com/username/sales-dashboard" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Proyek 6: Absensi -->
+          <div class="col-lg-4 col-md-6 fade-in-up delay-3">
+            <article class="project-card">
+              <div class="project-img-wrap">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg,#fff1f2,#fecdd3)" aria-hidden="true">
+                  <span style="font-size:2.5rem">📋</span>
+                  <span>Sistem Absensi Digital</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Sistem Absensi Digital</h3>
+                <p class="project-card-desc">
+                  Sistem absensi berbasis web untuk memudahkan pengelolaan kehadiran mahasiswa 
+                  dalam kegiatan praktikum dan perkuliahan. Dilengkapi laporan kehadiran 
+                  otomatis yang dapat diunduh dalam format PDF.
+                </p>
+                <div class="project-tech-tags" role="list" aria-label="Teknologi yang digunakan">
+                  <span class="project-tech-tag" role="listitem">PHP</span>
+                  <span class="project-tech-tag" role="listitem">MySQL</span>
+                  <span class="project-tech-tag" role="listitem">Bootstrap 5</span>
+                  <span class="project-tech-tag" role="listitem">FPDF</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://github.com/username/absensi-digital" class="btn-project-link" target="_blank" rel="noopener noreferrer" aria-label="Lihat kode sumber di GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERTIFIKAT & PRESTASI
+         ============================================================ -->
+    <section id="sertifikat" class="section-gray">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Sertifikat & Prestasi</span>
+          <h2 class="section-title">Penghargaan & Sertifikasi</h2>
+          <p class="section-subtitle">Rekam jejak pembelajaran dan pencapaian yang terus mendorong saya untuk berkembang.</p>
+        </div>
+
+        <!-- Sertifikat -->
+        <h3 class="mb-4" style="font-size:1.15rem;font-weight:700;color:var(--color-navy)">
+          <i class="bi bi-patch-check-fill text-accent me-2" aria-hidden="true"></i>Sertifikat
+        </h3>
+        <div class="row g-3 mb-5">
+
+          <div class="col-lg-6 fade-in-up">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#eff6ff" aria-hidden="true">🎓</div>
+              <div>
+                <div class="cert-year">2024</div>
+                <h4 class="cert-title">Belajar Membuat Front-End Web Pemula</h4>
+                <p class="cert-issuer">Dicoding Indonesia</p>
+                <p class="cert-desc">Sertifikasi kompetensi pengembangan front-end web mencakup HTML, CSS, dan prinsip desain responsif.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-in-up delay-1">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#f0fdf4" aria-hidden="true">🌐</div>
+              <div>
+                <div class="cert-year">2024</div>
+                <h4 class="cert-title">JavaScript Algorithms and Data Structures</h4>
+                <p class="cert-issuer">freeCodeCamp</p>
+                <p class="cert-desc">Penguasaan algoritma dasar, struktur data, pemrograman fungsional, dan manipulasi DOM menggunakan JavaScript.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-in-up delay-2">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#fff7ed" aria-hidden="true">🐍</div>
+              <div>
+                <div class="cert-year">2023</div>
+                <h4 class="cert-title">Python for Everybody Specialization</h4>
+                <p class="cert-issuer">Coursera — University of Michigan</p>
+                <p class="cert-desc">Program spesialisasi komprehensif mencakup dasar Python, akses data, pemrosesan data, dan visualisasi data.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-in-up delay-3">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#fdf4ff" aria-hidden="true">🗄️</div>
+              <div>
+                <div class="cert-year">2023</div>
+                <h4 class="cert-title">SQL for Data Analysis</h4>
+                <p class="cert-issuer">Udacity</p>
+                <p class="cert-desc">Pembelajaran mendalam tentang SQL untuk analisis data, termasuk query kompleks, join, agregasi, dan subquery.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-in-up">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#ecfeff" aria-hidden="true">☁️</div>
+              <div>
+                <div class="cert-year">2023</div>
+                <h4 class="cert-title">Cloud Computing Fundamentals</h4>
+                <p class="cert-issuer">Google Cloud — Bangkit Academy</p>
+                <p class="cert-desc">Pengenalan layanan komputasi awan Google Cloud, termasuk Cloud Storage, Compute Engine, dan pengelolaan proyek cloud.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-in-up delay-1">
+            <div class="cert-card">
+              <div class="cert-icon" style="background:#fff1f2" aria-hidden="true">📱</div>
+              <div>
+                <div class="cert-year">2022</div>
+                <h4 class="cert-title">Fundamental UI/UX Design</h4>
+                <p class="cert-issuer">Skilvul — Kominfo</p>
+                <p class="cert-desc">Pelatihan prinsip-prinsip desain antarmuka pengguna, riset pengguna, wireframing, dan prototyping menggunakan Figma.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Prestasi -->
+        <h3 class="mb-4" style="font-size:1.15rem;font-weight:700;color:var(--color-navy)">
+          <i class="bi bi-trophy-fill me-2" style="color:#f59e0b" aria-hidden="true"></i>Prestasi
+        </h3>
+        <div class="row g-3">
+
+          <div class="col-lg-4 col-md-6 fade-in-up">
+            <div class="achievement-card">
+              <span class="achievement-icon" aria-hidden="true">🥈</span>
+              <h4 class="achievement-title">Juara 2 Hackathon Web Development</h4>
+              <p class="achievement-org">Nama Universitas — 2024</p>
+              <p class="achievement-desc">Meraih juara kedua dalam kompetisi pengembangan web tingkat universitas dengan membangun aplikasi pengelolaan sampah berbasis web dalam 24 jam.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+            <div class="achievement-card">
+              <span class="achievement-icon" aria-hidden="true">🏅</span>
+              <h4 class="achievement-title">Finalis Lomba Karya Tulis Ilmiah</h4>
+              <p class="achievement-org">Kemendikbud RI — 2023</p>
+              <p class="achievement-desc">Finalis LKTI nasional bidang teknologi informasi dengan topik implementasi kecerdasan buatan untuk optimasi jadwal kuliah.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+            <div class="achievement-card">
+              <span class="achievement-icon" aria-hidden="true">⭐</span>
+              <h4 class="achievement-title">Mahasiswa Berprestasi Prodi</h4>
+              <p class="achievement-org">Nama Universitas — 2023</p>
+              <p class="achievement-desc">Terpilih sebagai mahasiswa berprestasi tingkat program studi berdasarkan prestasi akademik, keaktifan organisasi, dan kontribusi pada komunitas teknologi.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         KONTAK
+         ============================================================ -->
+    <section id="kontak" class="section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Kontak</span>
+          <h2 class="section-title">Mari Terhubung!</h2>
+          <p class="section-subtitle">Saya terbuka untuk diskusi, kolaborasi, kesempatan magang, atau sekadar berbagi cerita tentang teknologi.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-10">
+            <div class="contact-card fade-in-up">
+              <p class="mb-4" style="color:var(--color-text-muted); font-size:0.9375rem; line-height:1.8">
+                Apakah Anda memiliki proyek menarik, peluang kolaborasi, atau sekadar ingin berkenalan? 
+                Jangan ragu untuk menghubungi saya melalui salah satu saluran di bawah ini. 
+                Saya akan berusaha membalas secepat mungkin. 😊
+              </p>
+
+              <div class="d-flex flex-column gap-3">
+
+                <a href="mailto:nama@example.com"
+                   class="contact-link-card"
+                   aria-label="Kirim email ke nama@example.com">
+                  <div class="contact-link-icon" style="background:#eff6ff" aria-hidden="true">
+                    <i class="bi bi-envelope-fill" style="color:#2563eb"></i>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">Email</div>
+                    <div class="contact-link-value">nama@example.com</div>
+                  </div>
+                  <span class="contact-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a href="https://github.com/username"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-link-card"
+                   aria-label="Profil GitHub (tautan contoh, buka tab baru)">
+                  <div class="contact-link-icon" style="background:#f0f0f3" aria-hidden="true">
+                    <i class="bi bi-github" style="color:#0f172a"></i>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">GitHub</div>
+                    <div class="contact-link-value">github.com/username</div>
+                  </div>
+                  <span class="contact-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/username/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-link-card"
+                   aria-label="Profil LinkedIn (tautan contoh, buka tab baru)">
+                  <div class="contact-link-icon" style="background:#eff6ff" aria-hidden="true">
+                    <i class="bi bi-linkedin" style="color:#0a66c2"></i>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">LinkedIn</div>
+                    <div class="contact-link-value">linkedin.com/in/username</div>
+                  </div>
+                  <span class="contact-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+                <a href="https://instagram.com/username"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-link-card"
+                   aria-label="Profil Instagram (tautan contoh, buka tab baru)">
+                  <div class="contact-link-icon" style="background:#fff1f2" aria-hidden="true">
+                    <i class="bi bi-instagram" style="color:#e1306c"></i>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">Instagram</div>
+                    <div class="contact-link-value">@username</div>
+                  </div>
+                  <span class="contact-link-arrow" aria-hidden="true">→</span>
+                </a>
+
+              </div>
+
+              <p class="mt-4 mb-0" style="font-size:0.8125rem;color:var(--color-text-muted); text-align:center">
+                <i class="bi bi-info-circle me-1" aria-hidden="true"></i>
+                Semua informasi kontak di atas merupakan data contoh yang dapat diganti dengan informasi nyata.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <p>
+      Dibuat dengan ❤️ oleh <span class="footer-name">Nama Mahasiswa</span>
+      &nbsp;·&nbsp;
+      &copy; <span id="footer-year">2024</span> Semua hak dilindungi.
+    </p>
+    <p class="mt-1" style="font-size:0.78rem; opacity:0.6">
+      Dibangun menggunakan HTML5, CSS3 &amp; Bootstrap 5.3.8
+    </p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="btn-scroll-top" id="btn-scroll-top" aria-label="Gulir ke atas">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap 5.3.8 JS Bundle (Lokal) -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Inline Scripts: Navbar, Scroll, Animations -->
+  <script>
+    'use strict';
+
+    /* --- Footer Year --- */
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    /* --- Mobile Nav Toggle --- */
+    const toggler     = document.getElementById('nav-toggler');
+    const mobileMenu  = document.getElementById('nav-mobile-menu');
+    const togglerIcon = document.getElementById('toggler-icon');
+
+    toggler.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      toggler.setAttribute('aria-expanded', isOpen.toString());
+      togglerIcon.className = isOpen ? 'bi bi-x-lg' : 'bi bi-list';
+    });
+
+    /* Close mobile menu on link click */
+    mobileMenu.querySelectorAll('.nav-link, .btn-contact-mobile').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        toggler.setAttribute('aria-expanded', 'false');
+        togglerIcon.className = 'bi bi-list';
+      });
+    });
+
+    /* --- Active Nav Link on Scroll --- */
+    const sections  = document.querySelectorAll('section[id]');
+    const navLinks  = document.querySelectorAll('.nav-links .nav-link');
+
+    function updateActiveLink() {
+      let current = '';
+      const scrollY = window.scrollY + 100;
+      sections.forEach(section => {
+        if (scrollY >= section.offsetTop) current = section.id;
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+
+    /* --- Scroll-to-top Button --- */
+    const scrollBtn = document.getElementById('btn-scroll-top');
+    window.addEventListener('scroll', () => {
+      scrollBtn.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    /* --- Fade-in-up on Scroll (IntersectionObserver) --- */
+    const fadeEls = document.querySelectorAll('.fade-in-up');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      fadeEls.forEach(el => observer.observe(el));
+    } else {
+      /* Fallback: show all immediately */
+      fadeEls.forEach(el => el.classList.add('visible'));
+    }
+  </script>
+
+</body>
+</html>
