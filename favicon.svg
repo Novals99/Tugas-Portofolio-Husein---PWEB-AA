@@ -1,0 +1,40 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background: dark navy rounded square, matching .nav-logo in style.css (#0f172a) -->
+  <rect width="32" height="32" rx="6" ry="6" fill="#0f172a"/>
+
+  <!--
+    MH monogram at 32x32.
+    Total letter block: x=2.5 to x=29.5, y=8 to y=24
+    Stroke width used: 2.5px
+
+    M  (x: 2.5..15, width 12.5)
+      Left stem:   x=2.5, w=2.5, h=16, y=8
+      Right stem:  x=12,  w=2.5, h=16, y=8
+      L-diagonal:  top-left (2.5,8) → mid-centre (8.25,16) → 2.5px wide stroke via polygon
+      R-diagonal:  top-right(14.5,8) → mid-centre (8.25,16) → 2.5px wide stroke via polygon
+
+    H  (x: 16..29.5, width 13.5)
+      Left stem:   x=16,   w=2.5, h=16, y=8
+      Right stem:  x=27,   w=2.5, h=16, y=8
+      Crossbar:    x=16,   w=13.5, h=2.5, y=14.75
+  -->
+
+  <!-- M: left vertical stem -->
+  <rect x="2.5" y="8" width="2.5" height="16" rx="0.5" fill="#ffffff"/>
+  <!-- M: right vertical stem -->
+  <rect x="12" y="8" width="2.5" height="16" rx="0.5" fill="#ffffff"/>
+  <!-- M: left diagonal (from top-left to peak at centre) -->
+  <polygon points="2.5,8 5,8 9,15.5 6.5,15.5" fill="#ffffff"/>
+  <!-- M: right diagonal (from top-right down to same peak) -->
+  <polygon points="14.5,8 12,8 8,15.5 10.5,15.5" fill="#ffffff"/>
+
+  <!-- H: left vertical stem -->
+  <rect x="16.5" y="8" width="2.5" height="16" rx="0.5" fill="#ffffff"/>
+  <!-- H: right vertical stem -->
+  <rect x="27" y="8" width="2.5" height="16" rx="0.5" fill="#ffffff"/>
+  <!-- H: crossbar -->
+  <rect x="16.5" y="14.75" width="13" height="2.5" rx="0.5" fill="#ffffff"/>
+
+  <!-- Accent pixel: 3x3 blue-cyan square bottom-right — subtle technical identity detail -->
+  <rect x="25.5" y="25.5" width="4" height="4" rx="1" fill="#2563eb"/>
+</svg>
